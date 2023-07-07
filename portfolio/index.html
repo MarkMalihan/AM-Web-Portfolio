@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <title>Argel Malihan</title>
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="images/Untitled-1.png">
+    </head>
+    <body>
+
+        <!--navigation-->
+        <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+            
+            <img class="mx-5" src="images/Untitled-2.png" width="50" height="50">
+            <a class="navbar-brand">Argel Malihan</a>
+
+            <ul class="navbar-nav ml-auto">    
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link ">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Introduction-->
+        <div class="d-flex flex-row">
+            <div class="vertical_line flex-row"></div>
+
+            <img src="images/icons8-user-90.png" class="user_icon mx-n5" height="80" width="80">
+            
+            <!--flex row-->
+            <div class="flex-column">
+                <!--introduction text-->
+                <div class="intro">
+                    <h3>Hi,<br>I'm Argel Malihan</h3>
+                    <h2 class="text-warning">"Frontend Developer/Product Designer"</h2>
+                    <h3 class="text-secondary">I create decent designs and useless apps</h3>
+                </div>
+
+                <!--buttons-->
+                <div class="flex-column">
+                    <a href="docs/Mark Angelo Malihan Resume.pdf" download="Mark Angelo Malihan - Resume">
+                        <button type="button" class="see_more_btn btn btn-outline-secondary mt-5">Résumé</button>
+                    </a>
+                    <a href="about.html">
+                        <button type="button" class="see_more_btn btn btn-outline-info mt-5 ml-3">Read More</button>
+                    </a>
+                    
+                </div>
+                
+            <!--flex column end--> 
+            </div>
+            <!--my picture-->
+            <img src="images/pic.png" class="ml-auto mb-n5" height="675" width="550">
+        <!--flex row end-->
+        </div>
+        
+        <!--flex row-->
+        <div class="d-flex flex-row">
+            <div class="vertical_line flex-row"></div>
+            
+            <img src="images/icons8-file-submodule-100.png" class="project_icon mx-n5" height="85" width="85">
+
+            <!--flex column-->
+            <div class="d-flex flex-column">
+                <!--Title, subtitle-->
+                <div class="projects">
+                    <h2 class="text-primary">Projects</h2>
+                    <h3 class="text-secondary">Web and Mobile UI/UX designs, logos, etc.</h3>
+                </div>
+                
+                <!--flex row-->
+                <div class="cards d-flex flex-row">
+                    <!--cards-->
+                    <div class="card mx-3">
+                        <img class="mx-auto" src="images/amwebportfolio2.png" width="190"  height="200">
+                        <div class="card-body">
+                            <h4 class="card-title">AM Web Portfolio</h4>
+                            <p class="card-text">Figma Design/Prototype</p>
+                            <button type="button" class="btn btn-info">View</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card mx-3">
+                        <img class="mx-auto" src="images/applogo.png" width="170"  height="200">
+                        <div class="card-body">
+                            <h4 class="card-title">InternConnect</h4>
+                            <p class="card-text">Mobile Development - Java</p>
+                            <button type="button" class="btn btn-info">View</button>
+                        </div>
+                    </div>
+
+                    <div class="card mx-3">
+                        <img class="mx-auto image-fluid" src="images/property transfer.png" width="180"  height="200">
+                        <div class="card-body">
+                            <h4 class="card-title">Property Transfer</h4>
+                            <p class="card-text">Python</p>
+                            <button type="button" class="btn btn-info" onclick="window.open('https://github.com/kganallinone/PropertyTransferReport','_blank')">View</button>
+                        </div>
+                    </div>
+
+                    <div class="card mx-3">
+                        <img class="mx-auto image-fluid" src="images/Untitled-2.png" width="75"  height="200">
+                        <div class="card-body">
+                            <h4 class="card-title">InternConnect</h4>
+                            <p class="card-text">Mobile Development - Java</p>
+                            <button type="button" class="btn btn-info">View</button>
+                        </div>
+                    </div>
+
+                <!--cards end-->
+                </div>
+                <button type="button" class="see_more_btn btn btn-outline-primary" data-toggle="collapse" data-target="#demo">See more</button>
+            <!--flex column end-->
+            </div>
+        <!--flex row end-->
+        </div>
+
+        <div class="d-flex flex-row">
+            <div class="vertical_line flex-row"></div>
+        </div>
+        
+        <!--footer-->
+        <footer class="text-center d-flex flex-column">
+            <div class="btn-group btn-group-sm mx-auto mt-3">
+                <button type="button" class="socmed border border-0 mx-2" onclick="window.open('https://www.facebook.com/argel.malihan/','_blank')"><img src="images/icons8-facebook-96.png" height="40" width="40"></button>
+                <button type="button" class="socmed border border-0 mx-2" onclick="window.open('https://www.instagram.com/argelmalihan/','_blanks')"><img src="images/icons8-instagram-96.png" height="40" width="40"></button>
+                <button type="button" class="socmed border border-0 mx-2" onclick="window.open('https://www.threads.net/@argelmalihan/','_blank')"><img src="images/threads.png" height="40" width="40"></button>
+                <button type="button" class="socmed border border-0 mx-2" onclick="window.open('https://twitter.com/ArgelMalihan','_blanks')"><img src="images/icons8-twitter-96.png" height="40" width="40"></button>
+                <button type="button" class="socmed border border-0 mx-2" onclick="window.open('https://github.com/MarkMalihan','_blank')"><img src="images/icons8-github-90.png" height="40" width="40"></button>
+                <button type="button" class="socmed border border-0 mx-2" onclick="window.open('https://discordapp.com/users/Lihan#2025','_blank')"><img src="images/icons8-discord-96.png" height="40" width="40"></button>
+            </div>
+            <p class="text-light text-decoration-none mt-4">malihanmarkangelolizano@gmail.com</p>
+            <p class="text-light">July 2023</p>
+        </footer>
+
+        <div class="glass_layer"></div>
+        <div class="circle2 ml-auto"></div>
+
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
