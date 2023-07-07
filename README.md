@@ -1,2 +1,2 @@
-# AM-Web-Portfolio
+# AM Web Portfolio
 My Web Portfolio and Resume
